@@ -129,6 +129,8 @@ int main()
     printf("\n\n\nALL ROUNDS COMPLETED\n");
     printf("\t\t\t\t\t\tFINAL SCORES BOARD:::\n");
     printf("\t\t\t\t\t###### SCORES:%s = %d, BOT = %d ######\n", player_name, player_score, BOT_score);
+    
+    
     if (player_score > BOT_score)
     {
         printf("\nCONGRATULATIONS %s,You WON AGAINST COMPUTER BOT!! Hurray!!\n", player_name);
